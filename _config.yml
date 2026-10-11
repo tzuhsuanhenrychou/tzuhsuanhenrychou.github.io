@@ -5,7 +5,7 @@ site_theme: "default"
 title: "Tzu-Hsuan (Henry) Chou"
 title_separator: "-"
 name: &name "Tzu-Hsuan (Henry) Chou"
-description: &description "Research in wireless communications, MIMO, signal processing, 6G and Wi-Fi"
+description: &description "Wireless communications, channel acquisition, MIMO transceiver design, 6G and Wi-Fi"
 url: "https://tzuhsuanhenrychou.github.io"
 baseurl: ""
 repository: "tzuhsuanhenrychou/tzuhsuanhenrychou.github.io"
@@ -14,7 +14,7 @@ author:
   avatar: "profile.png" # Replace images/profile.png with your own photo later
   name: "Tzu-Hsuan (Henry) Chou"
   pronouns:
-  bio: "Wireless Systems Engineer at Qualcomm Technologies | Ph.D., Purdue University | Wireless Communications and Signal Processing"
+  bio: "Wireless Systems Engineer, Qualcomm | Ph.D., Purdue University | MIMO & Wireless Communications"
   location: "San Diego, CA, USA"
   employer: "Qualcomm Technologies, Inc."
   uri:
