@@ -1,36 +1,24 @@
 ---
 layout: archive
-title: "Publications"
 permalink: /publications/
+title: "Publications"
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<p><strong>Journal articles (5) and conference papers (5)</strong>. Entries below follow my October 2026 academic CV. IEEE Xplore/DOI links can be added later.</p>
+<h2>Journal Articles</h2>
+<ol reversed>
+<li>T.-H. Chou, C.-H. Liu, and J. Jiang, “Distribution-Aware GMD Transceiver Design for Probabilistic Shaping in MIMO,” <em>IEEE Transactions on Vehicular Technology</em>, early access, 2026.</li>
+<li>M. K. K. Gowda, T.-H. Chou, B. Lee, N. Michelusi, D. J. Love, Y. Zhang, and J. V. Krogmeier, “Distributed Machine Learning for Low-Latency Localization in Cell-Free Massive MIMO Systems,” <em>IEEE Transactions on Wireless Communications</em>, vol. 25, pp. 19643–19659, 2026.</li>
+<li>T.-H. Chou, N. Michelusi, D. J. Love, and J. V. Krogmeier, “Joint UAV Placement and Transceiver Design in Multi-User Wireless Relay Networks,” <em>IEEE Transactions on Communications</em>, vol. 73, no. 11, pp. 12820–12835, Nov. 2025.</li>
+<li>T.-H. Chou, N. Michelusi, D. J. Love, and J. V. Krogmeier, “Compressed Training for Dual-Wideband Time-Varying Sub-Terahertz Massive MIMO,” <em>IEEE Transactions on Communications</em>, vol. 71, no. 6, pp. 3559–3575, Jun. 2023.</li>
+<li>T.-H. Chou, N. Michelusi, D. J. Love, and J. V. Krogmeier, “Fast Position-Aided MIMO Beam Training via Noisy Tensor Completion,” <em>IEEE Journal of Selected Topics in Signal Processing</em>, vol. 15, no. 3, pp. 774–788, 2021.</li>
+</ol>
+<h2>Conference Papers</h2>
+<ol reversed>
+<li>T.-H. Chou, C.-H. Liu, B. Lee, and J. Jiang, “EVM-Aware MIMO Transceiver Design for Wireless Communications,” <em>60th Asilomar Conference on Signals, Systems, and Computers</em>, 2026, accepted, to appear.</li>
+<li>M. K. K. Gowda, T.-H. Chou, B. Lee, N. Michelusi, D. J. Love, and J. V. Krogmeier, “Hybrid Fingerprint-based Positioning in Cell-Free Massive MIMO Systems,” <em>59th Asilomar Conference on Signals, Systems, and Computers</em>, pp. 525–529, 2025.</li>
+<li>T.-H. Chou, N. Michelusi, D. J. Love, and J. V. Krogmeier, “Wideband Millimeter-Wave Massive MIMO Channel Training via Compressed Sensing,” <em>IEEE Global Communications Conference (GLOBECOM)</em>, pp. 1–6, 2021.</li>
+<li>T.-H. Chou, N. Michelusi, D. J. Love, and J. V. Krogmeier, “Millimeter Wave Beam Recommendation via Tensor Completion,” <em>IEEE International Conference on Communications (ICC)</em>, pp. 1–6, 2020.</li>
+<li>Y.-P. Lin, T.-H. Chou, and S.-M. Phoong, “Feedback for Time-Correlated MIMO-OFDM System Using Predictive Quantization of Bit Loading and Subcarrier Clustering,” <em>IEEE International Conference on Digital Signal Processing (DSP)</em>, pp. 384–388, 2015.</li>
+</ol>

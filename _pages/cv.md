@@ -1,64 +1,28 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
+title: "Curriculum Vitae"
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+[**Download my academic CV (PDF)**](/files/Tzu_Hsuan_Chou_CV.pdf)
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- Ph.D., Electrical and Computer Engineering, Purdue University, 2022.
+- M.S., Electrical and Control Engineering, National Chiao Tung University, 2013.
+- B.S., Electrical and Computer Engineering, National Chiao Tung University, 2011.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Wireless Systems Engineer, Qualcomm Technologies, Inc., 2022–present.
+- Graduate Research Assistant, Purdue University, 2017–2022.
+- 4G LTE Software Engineer, MediaTek, 2014–2017.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research and service
+
+- Research areas: wireless communications, MIMO, signal processing, mmWave/sub-THz, 5G/6G, and Wi-Fi.
+- IEEE ICC 2027 Technical Program Committee (SPC Symposium).
+- IEEE peer reviewer, across communications and signal-processing venues.
+
+For the full publication list, patent disclosures, and standards contributions, please see the PDF above.
